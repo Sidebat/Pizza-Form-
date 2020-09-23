@@ -19,43 +19,37 @@
     </p>
 
     <p>
-        <label for = "name:"> Password:</label>
-        <input type="text" id="name" name="user.Password">
-    </p>
-
-
-
-
-
-
-
-
-    <nav>
-        
-        <ul>
-            <li><a herf="#">Coke</a></li>
-            <li><a herf="#">Diet Coke</a></li>
-            <li><a herf="#">Sprite</a></li>
-            <li><a herf="#">Water</a></li>
-        </ul>
-    </nav>
-
-
-
-    <p>
-        <button type="submit"> Submit</button>
+        <lable for = "PW"> Enter your password:</lable>
+        <input type ="password" id= "PW" name="user.PW">
         </p>
 
         <p>
             What is you pizza toping preference<br>
+                <lable for="Coke">
+                <input type="radio" id="Coke" name="user.drink" value="Coke">
+                <label for="Coke">Coke</label><br>
+                <input type="radio" id="Diet Coke" name="user.drink" value="Diet Coke">
+                <label for="Diet Coke">Diet Coke</label><br>
+                <input type="radio" id="Sprite" name="user.drink" value="Sprite">
+                <label for="Sprite">Sprite</label><br>
+                <input type="radio" id="Water" name="user.drink" value="Water">
+                <label for="Water">Water</label><br>
+            </p>
+
+
+
+
+
+        <p>
+            What is you pizza toping preference<br>
                 <lable for="Plain">
-                <input type="radio" id="Plain" name="user.toping" value="Plain">
+                <input type="checkbox" id="Plain" name="user.toping" value="Plain">
                 <label for="Plain">Plain</label><br>
-                <input type="radio" id="Pepperone" name="user.topping" value="Pepperone">
+                <input type="checkbox" id="Pepperone" name="user.topping" value="Pepperone">
                 <label for="Pepperone">Pepperone</label><br>
-                <input type="radio" id="Chicken" name="user.topping" value="Chicken">
+                <input type="checkbox" id="Chicken" name="user.topping" value="Chicken">
                 <label for="Chicken">Chicken</label><br>
-                <input type="radio" id="Sausage" name="user.topping" value="Sausage">
+                <input type="checkbox" id="Sausage" name="user.topping" value="Sausage">
                 <label for="Sausage">Sausage</label><br>
             </p>
 
@@ -74,3 +68,6 @@
 
 
 
+            <p>
+                <button type="submit"> Submit</button>
+                </p>
